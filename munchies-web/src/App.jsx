@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './styles.js';
 import Navbar from './Navbar.jsx';
+import Featured from './Featured.jsx';
+import About from './About.jsx';
 
 const App = () => {
   return (
@@ -12,12 +14,12 @@ const App = () => {
       </div>
       <div className={`${styles.flexCenter}`}>
         <div>
-          Featured Recipes
+          <Featured/>
         </div>
       </div>
       <div className={`${styles.flexCenter}`}>
         <div>
-          About
+          <About/>
         </div>
       </div>
       <div className={`${styles.flexCenter}`}>
