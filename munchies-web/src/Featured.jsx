@@ -5,8 +5,12 @@ import { featuredRecipes } from './constants'
 const Featured = () => {
   return (
     <div className='w-screen items-center justify-center'>
-      <div className={`${styles.flexCenter}`}>
-        <h2 className='font-thin'>Featured Recipes</h2>
+      <div className='inline-flex w-full justify-center items-center'>
+        <hr class="w-64 h-px my-8 bg-gray-200 border-0 rounded dark:bg-gray-700"/>
+        <div className='absolute'>
+          <h2 className='font-thin'>Featured</h2>
+        </div>
+        <hr class="w-64 h-px my-8 bg-gray-200 border-0 rounded dark:bg-gray-700"/>
       </div>
       <div className={`${styles.flexCenter}`}>
         {featuredRecipes.map((recipe, i)=> {
