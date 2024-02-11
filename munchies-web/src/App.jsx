@@ -3,6 +3,7 @@ import styles from './styles.js';
 import Navbar from './Navbar.jsx';
 import Featured from './Featured.jsx';
 import About from './About.jsx';
+import Contact from './Contact.jsx';
 
 const App = () => {
   return (
@@ -24,7 +25,7 @@ const App = () => {
       </div>
       <div className={`${styles.flexCenter}`}>
         <div>
-          Contact
+          <Contact/>
         </div>
       </div>
         
